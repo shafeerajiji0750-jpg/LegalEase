@@ -1,0 +1,13 @@
+[theme]
+# The specification's screenshots use Streamlit's stock dark theme, so only the
+# base is set: overriding the palette here would change the button colours and
+# the red focus ring shown in the spec.
+base = "dark"
+
+[server]
+headless = true
+port = 8501
+fileWatcherType = "auto"
+
+[browser]
+gatherUsageStats = false

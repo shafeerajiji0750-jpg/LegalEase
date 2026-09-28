@@ -1,0 +1,9 @@
+# Normalize text files in the repository to LF; check out native on Windows.
+* text=auto
+
+# Keep the launcher a POSIX script so it works after cloning on Linux/macOS.
+run.sh text eol=lf
+
+# Binary assets must never be line-ending converted.
+Image/*.png binary
+docs/*.pdf binary
